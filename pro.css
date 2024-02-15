@@ -1,0 +1,93 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  body {
+    font-family: helvetica;
+    font-size: 18px;
+    /* background-color: #2607ad; */
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/27/21/03/lone-tree-1934897_1280.jpg");
+    background-size: cover;
+
+  }
+  
+  .container {
+    margin: 200px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-box {
+    border: 2px solid black;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
+
+  #copybtn{
+    border-radius: 12px;
+  }
+
+  #quote {
+    color: #121212;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  
+
+  #author {
+    float: right;
+    color: #121212;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  #btn {
+    align-self: center;
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 12px; 
+  }
+
+  #btn :hover{
+    /* opacity: 0.6;
+    transition: 0.3s; */
+    background-color: rgb(64, 169, 211);
+  }
+  
+  #btn:focus {
+    outline: none;
+  }
+
+  #button {
+    align-self: center;
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: rgb(16, 98, 153);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 12px; 
+  }
+
+  #button :hover{
+   background-color: rgb(64, 169, 211);
+  }
+  
+  #button:focus {
+    outline: none;
+  }
+  
+ 
